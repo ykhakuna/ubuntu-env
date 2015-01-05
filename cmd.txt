@@ -1,0 +1,9 @@
+1. backup is important
+tar -cvpzf /home/matthew/backup/backup.tgz --exclude=/proc --exclude=/lost+found --exclude=/mnt --exclude=/home --exclude=/sys --exclude=/media --exclude=/dev /
+
+restore:
+sudo tar -xvpzf /path/to/backup.tar.gz -C /
+
+
+2. 
+
